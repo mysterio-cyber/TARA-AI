@@ -1,0 +1,27 @@
+# API keys and environment secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# macOS files
+.DS_Store
+**/.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment and secret files
+*.env
+*.env.*
+undisclosed.env.edn
+
+# Private keys and credentials
+*.pem
+*.key
